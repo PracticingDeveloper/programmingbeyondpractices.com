@@ -12,12 +12,12 @@ permalink: samples/1
         <h3>Developing a rigorous approach toward problem solving</h3>
         <img class="img-responsive" style="padding: 10px;" src="http://placehold.it/550x400">
         <h4>Enter your email address to unlock this chapter</h4>
-
-        <form class="form-inline" style="padding: 10px;">
+        <form class="form-inline" action="https://formspree.io/gregory@practicingdeveloper.com" method="POST" style="padding: 10px;">
+          <input type="hidden" name="chapter" value="problem-solving">
           <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="you@example.com" style="width: 250px;">
+            <input type="email" class="form-control" name="_replyto" placeholder="you@example.com" style="width: 250px;">
           </div>
-          <button type="submit" class="btn btn-info">Send me it!</button>
+          <input type="submit" class="btn btn-info" value="Send me it!">
         </form>
       </div>
     </div>
