@@ -20,6 +20,9 @@ url: "practicingdeveloper.github.io" # the base hostname & protocol for your sit
 # Build settings
 markdown: kramdown
 
+include:
+  - samples/
+
 exclude:
   - Gemfile
   - Gemfile.lock
