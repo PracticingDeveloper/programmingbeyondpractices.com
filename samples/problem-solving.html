@@ -13,6 +13,7 @@ permalink: samples/1
         <img class="img-responsive" style="padding: 10px;" src="http://placehold.it/550x400">
         <h4>Enter your email address to unlock this chapter</h4>
         <form class="form-inline" action="https://formspree.io/gregory@practicingdeveloper.com" method="POST" style="padding: 10px;">
+          <input type="hidden" name="_next" value="{{ "/thanks.html" | prepend: site.baseurl }}">
           <input type="hidden" name="chapter" value="problem-solving">
           <div class="form-group">
             <input type="email" class="form-control" name="_replyto" placeholder="you@example.com" style="width: 250px;">
